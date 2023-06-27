@@ -6,7 +6,7 @@ import requests
 import time
 
 load_dotenv()
-token = os.getenv('token')
+token = os.environ["token"]
 bot = telebot.TeleBot(token)
 running = False
 
