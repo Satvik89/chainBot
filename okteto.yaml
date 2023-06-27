@@ -3,4 +3,4 @@ services:
   worker:
     build:. 
       environment:
-          token = ${token}
+          - token = ${token}
