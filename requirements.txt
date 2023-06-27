@@ -1,0 +1,6 @@
+telebot
+os
+json
+requests
+time
+dotenv
